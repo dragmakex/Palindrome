@@ -1,0 +1,9 @@
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        self.x = str(input("Please put in an integer:"))
+        if self.x == self.x[::-1]:
+            print("This is a palindrome!")
+        else:
+            print("This is a traitor, not a palindrome!")
+
+Solution.isPalindrome(self, x)
